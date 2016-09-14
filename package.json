@@ -2,10 +2,14 @@
   "name": "puck-api",
   "version": "1.0.0",
   "description": "data for hockey app",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.21.2"
+  }
 }
